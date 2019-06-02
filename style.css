@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+body{
+font-family: Inconsolata, monospace;
+}
+.jumbotron-fluid{
+  background-image: url('/img/kiddafer.png');
+  width: 100%;
+   height: 550px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.jumbo-register{
+  background-image: url('/img/kidda.png');
+  width: 100%;
+   height: 550px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.welcome{
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.label{
+  color: #FFFFFF;
+}
+  #button{
+    margin-left: 70px;
+  }
+  #form-div{
+    margin-top: 100px;
+  }
+.fa-heart{
+  color: #fb7d13;
+}
+.fa-bolt{
+  color: yellow;
+}
+.footer{
+  text-align: center;
+}
+#body-div{
+  background-color: #99AAB4;
+}
+#footer-text{
+  background-color: #99AAB4;
+  font-weight: bold;
+}
+  /*Text animation */
+
+  .welcome{
+      -webkit-animation: color-change 1s infinite;
+      -moz-animation: color-change 1s infinite;
+      -o-animation: color-change 1s infinite;
+      -ms-animation: color-change 1s infinite;
+      animation: color-change 1s infinite;
+  }
+
+  @-webkit-keyframes color-change {
+      0% { color: #99AAB4; }
+      50% { color: #7588D5; }
+      70% { color: #FFFFFF; }
+      100% { color: #99AAB4; }
+  }
+
+.rules{
+  color: #FFFFFF;
+}
+#rules-col{
+  margin-top: 100px;
+}
+.fa-leaf{
+  color: green;
+}
+
+/* 401 page */
+#error-jumbotron{
+  background-image: url('https://media.giphy.com/media/cfuL5gqFDreXxkWQ4o/giphy.gif');
+  height: 550px;
+  text-align: center;
+  color:  #99AAB4;
+  font-size: 1em;
+  margin-top: none;
+  background-position: center;
+  background-repeat: no-repeat;
+background-size: 45%;
+
+}
+#error-heading{
+  font-size: 2em;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+}
+#error-text{
+  font-size: 1.5em;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-align: center;
+  background-color:  #99AAB4;
+-ms-transform: rotate(8deg); /* IE 9 */
+-webkit-transform: rotate(8deg); /* Safari 3-8 */
+transform: rotate(8deg);
+width: 30%;
+text-transform: uppercase;
+}
+.error-text2{
+  text-align: center;
+  color:  black;
+  font-size: 20px;
+  font-weight: 900;
+-ms-transform: rotate(10deg); /* IE 9 */
+-webkit-transform: rotate(10deg); /* Safari 3-8 */
+transform: rotate(10deg);
+width: 95%;
+}
