@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
 body{
 font-family: Inconsolata, monospace;
-background-color:  #99AAB4;
-
-
-
 }
 .jumbotron-fluid{
   background-image: url('/img/kiddafer.png');
@@ -13,7 +9,6 @@ background-color:  #99AAB4;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-
 }
 .jumbo-register{
   background-image: url('/img/kidda.png');
@@ -47,7 +42,6 @@ background-color:  #99AAB4;
   color: yellow;
 }
 .footer{
-  background-color: #99AAB4;
   text-align: center;
 }
 
@@ -85,14 +79,14 @@ background-color:  #99AAB4;
 /* 401 page */
 #error-jumbotron{
   background-image: url('https://media.giphy.com/media/cfuL5gqFDreXxkWQ4o/giphy.gif');
-  height: 800px;
+  height: 550px;
   text-align: center;
   color:  #99AAB4;
   font-size: 1em;
   margin-top: none;
   background-position: center;
   background-repeat: no-repeat;
-background-size: cover;
+background-size: 45%;
 
 }
 #error-heading{
